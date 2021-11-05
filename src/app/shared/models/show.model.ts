@@ -44,3 +44,9 @@ export interface SourceModel {
   show_id?: string;
   show_name?: string;
 }
+
+export interface LogoModel {
+  url: string;
+  company_name: string;
+  active: boolean;
+}

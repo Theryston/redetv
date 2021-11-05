@@ -11,8 +11,17 @@
     </div>
   </div>
   <div class="container--sources">
-    <div class="container--source" *ngFor="let source of sources">
-      <app-source [source]="source"></app-source>
+    <div *ngFor="let source of sources">
+      <div class="container--source">
+        <app-source [source]="source"></app-source>
+      </div>
+    </div>
+  </div>
+  <div class="container--logos">
+    <div *ngFor="let logo of logos">
+      <div class="container--logo">
+        <app-logo [logo]="logo"></app-logo>
+      </div>
     </div>
   </div>
 </div>

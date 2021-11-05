@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ShowModel, SourceModel } from 'src/app/shared/models/show.model';
+import { LogoModel, ShowModel, SourceModel } from 'src/app/shared/models/show.model';
 import { ShowService } from 'src/app/shared/services/show.service';
 
 @Component({
@@ -10,12 +10,14 @@ import { ShowService } from 'src/app/shared/services/show.service';
 export class HomeComponent implements OnInit {
   shows: ShowModel[];
   sources: SourceModel[];
+  logos: LogoModel[];
 
   constructor(private showService: ShowService) { }
 
   async ngOnInit() {
     this.shows = await this.showService.getAllShows();
-    this.sources = await this.showService.getSources();
+    this.sources = (await this.showService.getSources()).filter(show => !show.main);
+    this.logos = await this.showService.getLogos();
   }
 
 }

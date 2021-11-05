@@ -39,6 +39,15 @@
   grid-gap: 20px;
 }
 
+.container--logos {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 50px;
+  grid-gap: 20px;
+}
+
 @media (max-width: 768px) {
   .container--streaming {
     height: 70vh;

@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { StreamingComponent } from './shared/components/streaming/streaming.component';
 import { ShowComponent } from './shared/components/show/show.component';
 import { SourceComponent } from './shared/components/source/source.component';
+import { LogoComponent } from './shared/components/logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SourceComponent } from './shared/components/source/source.component';
     HomeComponent,
     StreamingComponent,
     ShowComponent,
-    SourceComponent
+    SourceComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,

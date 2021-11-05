@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { ShowModel, SourceModel } from '../models/show.model';
+import { LogoModel, ShowModel, SourceModel } from '../models/show.model';
 
 @Injectable({
   providedIn: 'root'
@@ -503,6 +503,56 @@ export class ShowService {
         show_name: 'Conecte-se',
         url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
       },
+      {
+        show_name: 'Conecte-se',
+        main: true,
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+      {
+        main: false,
+        show_name: 'Conecte-se',
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+      {
+        show_name: 'Conecte-se',
+        main: true,
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+      {
+        main: false,
+        show_name: 'Conecte-se',
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+      {
+        show_name: 'Conecte-se',
+        main: true,
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+      {
+        main: false,
+        show_name: 'Conecte-se',
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+      {
+        show_name: 'Conecte-se',
+        main: true,
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+      {
+        main: false,
+        show_name: 'Conecte-se',
+        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+      },
+    ]
+  }
+
+  async getLogos(): Promise<LogoModel[]> {
+    return [
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      }
     ]
   }
 }
