@@ -1,0 +1,41 @@
+.container--streaming {
+  height: 90vh;
+  display: flex;
+  background-color: linear-gradient(to top, #28282e 10%, #0300a6 90%);
+  flex-direction: column;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+}
+.container--title {
+  width: 100%;
+  margin-left: 500px;
+}
+
+.container--title h1 {
+  font-size: .9em;
+}
+.container--logo {
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.container--shows {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.container--show {
+  /* grmargin: 10px; */
+}
+
+@media (max-width: 768px) {
+  .container--streaming {
+    height: 70vh;
+  }
+}

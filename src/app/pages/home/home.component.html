@@ -1,1 +1,13 @@
-<p>home works!</p>
+<div class="container">
+  <img src="assets/icon.png" alt="logo" class="container--logo">
+  <div class="container--streaming">
+    <div class="container--title">
+    </div>
+    <app-streaming></app-streaming>
+  </div>
+  <div class="container--shows">
+    <div class="container--show" *ngFor="let show of shows">
+      <app-show [show]="show"></app-show>
+    </div>
+  </div>
+</div>

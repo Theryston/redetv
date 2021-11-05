@@ -1,0 +1,14 @@
+iframe {
+  width: 800px;
+  height: 450px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.3); */
+}
+
+@media (max-width: 768px) {
+  iframe {
+    width: 350px;
+    height: 200px;
+  }
+}

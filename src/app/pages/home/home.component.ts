@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ShowModel } from 'src/app/shared/models/show.model';
+import { ShowService } from 'src/app/shared/services/show.service';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  shows: ShowModel[];
 
-  constructor() { }
+  constructor(private showService: ShowService) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    this.shows = await this.showService.getAllShows();
   }
 
 }
