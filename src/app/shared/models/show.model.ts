@@ -40,4 +40,7 @@ export interface EpisodeModel {
 export interface SourceModel {
   url: string;
   main: boolean;
+  _id?: string;
+  show_id?: string;
+  show_name?: string;
 }

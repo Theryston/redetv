@@ -10,4 +10,9 @@
       <app-show [show]="show"></app-show>
     </div>
   </div>
+  <div class="container--sources">
+    <div class="container--source" *ngFor="let source of sources">
+      <app-source [source]="source"></app-source>
+    </div>
+  </div>
 </div>

@@ -26,12 +26,17 @@
   margin-left: 50px;
   margin-right: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 160px 160px 160px 160px 160px 160px 160px;
   grid-gap: 20px;
 }
 
-.container--show {
-  /* grmargin: 10px; */
+.container--sources {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 @media (max-width: 768px) {

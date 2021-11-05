@@ -1,0 +1,7 @@
+<div class="container" (mouseenter)="setControls()" (mouseleave)="unsetControls()">
+  <video [src]="source.url" poster="" [controls]="controls"></video>
+  <div class="footer">
+    <p class="name">{{source.show_name}}</p>
+    <!-- <p class="first-description">{{show.short_description}}</p> -->
+  </div>
+</div>
