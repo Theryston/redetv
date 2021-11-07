@@ -546,12 +546,432 @@ export class ShowService {
     ]
   }
 
-  async getLogos(): Promise<LogoModel[]> {
+  async getLogosActive(): Promise<LogoModel[]> {
     return [
       {
         url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
         company_name: "empresa_top",
         active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: true,
+      }
+    ]
+  }
+
+  async getLogosNoActive(): Promise<LogoModel[]> {
+    return [
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
+      },
+      {
+        url: "https://i.pinimg.com/originals/3f/3d/d9/3f3dd9219f7bb1c9617cf4f154b70383.jpg",
+        company_name: "empresa_top",
+        active: false,
       }
     ]
   }

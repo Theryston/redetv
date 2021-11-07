@@ -8,6 +8,7 @@ import { LogoModel } from '../../models/show.model';
 })
 export class LogoComponent implements OnInit {
   @Input() logo: LogoModel;
+  @Input() isActive: boolean;
 
   constructor() { }
 

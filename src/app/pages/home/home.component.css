@@ -15,7 +15,7 @@
 .container--title h1 {
   font-size: .9em;
 }
-.container--logo {
+.container--redetvLogo {
   width: 30px;
   position: absolute;
   top: 15px;
@@ -42,9 +42,9 @@
 .container--logos {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 30px;
+  margin-top: 50px;
   display: grid;
-  grid-template-columns: 50px;
+  grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
   grid-gap: 20px;
 }
 

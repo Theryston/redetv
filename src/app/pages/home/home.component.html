@@ -1,5 +1,5 @@
 <div class="container">
-  <img src="assets/icon.png" alt="logo" class="container--logo">
+  <img src="assets/icon.png" alt="logo" class="container--redetvLogo">
   <div class="container--streaming">
     <div class="container--title">
     </div>
@@ -20,7 +20,14 @@
   <div class="container--logos">
     <div *ngFor="let logo of logos">
       <div class="container--logo">
-        <app-logo [logo]="logo"></app-logo>
+        <app-logo [logo]="logo" [isActive]="logo.active"></app-logo>
+      </div>
+    </div>
+  </div>
+  <div class="container--logos">
+    <div *ngFor="let logo of logosNoAcitive">
+      <div class="container--logo">
+        <app-logo [logo]="logo" [isActive]="logo.active"></app-logo>
       </div>
     </div>
   </div>

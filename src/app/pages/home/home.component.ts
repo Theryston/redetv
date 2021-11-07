@@ -11,13 +11,15 @@ export class HomeComponent implements OnInit {
   shows: ShowModel[];
   sources: SourceModel[];
   logos: LogoModel[];
+  logosNoAcitive: LogoModel[];
 
   constructor(private showService: ShowService) { }
 
   async ngOnInit() {
     this.shows = await this.showService.getAllShows();
     this.sources = (await this.showService.getSources()).filter(show => !show.main);
-    this.logos = await this.showService.getLogos();
+    this.logos = await this.showService.getLogosActive();
+    this.logosNoAcitive = await this.showService.getLogosNoActive();
   }
 
 }
