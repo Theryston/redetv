@@ -1,12 +1,14 @@
 .container--streaming {
   height: 90vh;
   display: flex;
-  background-color: linear-gradient(to top, #28282e 10%, #0300a6 90%);
-  flex-direction: column;
+  background: rgb(15,15,15);
+  flex-direction: row;
   color: #FFF;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
+
 .container--title {
   width: 100%;
   margin-left: 500px;
@@ -15,11 +17,31 @@
 .container--title h1 {
   font-size: .9em;
 }
-.container--redetvLogo {
-  width: 30px;
-  position: absolute;
-  top: 15px;
-  left: 15px;
+.containerStreaming--logo {
+  width: 120px;
+  margin-left: 150px;
+}
+
+.container--section {
+  display: flex;
+  align-items: center;
+  margin-left: 55px;
+  margin-bottom: 5px;
+}
+
+.container--section p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #333;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container--section img {
+  width: 20px;
+  height: 32px;
 }
 
 .container--shows {
