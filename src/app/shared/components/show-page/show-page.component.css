@@ -43,8 +43,38 @@ video {
     margin-top: 20px;
 }
 
+
+.seasons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.seasons button {
+    margin: 10px;
+    width: 130px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: #0f0f0f;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     video {
         height: 150px;
+    }
+
+    .details {
+        flex-wrap: wrap;
+    }
+
+    .details img {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }

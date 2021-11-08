@@ -13,6 +13,7 @@ import { LogoComponent } from './shared/components/logo/logo.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ShowPageComponent } from './shared/components/show-page/show-page.component';
+import { EpisodesComponent } from './shared/components/episodes/episodes.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ShowPageComponent } from './shared/components/show-page/show-page.compo
     SourceComponent,
     LogoComponent,
     FooterComponent,
-    ShowPageComponent
+    ShowPageComponent,
+    EpisodesComponent
   ],
   imports: [
     BrowserModule,

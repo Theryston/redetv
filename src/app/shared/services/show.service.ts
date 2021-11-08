@@ -40,6 +40,17 @@ export class ShowService {
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
+        }, {
+          name: '',
+          number: 2,
+          episodes: [{
+            name: 'Conecte-se',
+            number: 1,
+            sources: [{
+              main: true,
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+            }]
+          }]
         }],
         created_at: Date.now(),
       },
