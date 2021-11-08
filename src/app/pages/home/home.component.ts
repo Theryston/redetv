@@ -32,8 +32,8 @@ export class HomeComponent implements OnInit {
     const showPlaying = this.showPlaying;
 
     const dialogRef = this.dialog.open(ShowPageComponent, {
-      width: window.innerWidth + 'px',
-      data: { show: showPlaying }
+      width: '100vw',
+      data: { show: showPlaying },
     });
 
     dialogRef.afterClosed().subscribe(result => {
