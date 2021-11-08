@@ -8,8 +8,8 @@
     <p>Rede TV TocantinsFLIX</p>
   </section>
   <div class="container--shows">
-    <div class="container--show" *ngFor="let show of shows">
-      <app-show [show]="show"></app-show>
+    <div class="container--show" *ngFor="let show of shows; let index = index">
+      <app-show [show]="show" (onOpenDetails)="openDetails($event, index)"></app-show>
     </div>
   </div>
   <section class="container--section bg-black">

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 import { ShowModel } from '../../models/show.model';
 
@@ -9,14 +9,15 @@ import { ShowModel } from '../../models/show.model';
 })
 export class ShowComponent implements OnInit {
   @Input() show: ShowModel;
+  @Output() onOpenDetails = new EventEmitter();
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
-  goToPage() {
-    this.router.navigate(['/' + this.show._id])
+  openDetails() {
+    this.onOpenDetails.emit(this.show._id)
   }
 
 }

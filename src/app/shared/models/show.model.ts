@@ -33,6 +33,7 @@ export interface EpisodeModel {
   _id?: string;
   name: string;
   sources: SourceModel[];
+  mainSource?: SourceModel;
   number: number;
   created_at?: Date;
 }

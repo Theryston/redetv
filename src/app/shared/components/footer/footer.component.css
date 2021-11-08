@@ -9,6 +9,10 @@ footer {
     position: relative;
 }
 
+.footer_2 {
+    margin-top: 20px;
+}
+
 img {
     margin-left: 30px;
     width: 400px;
@@ -20,26 +24,26 @@ img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 50px;
+    margin-left: 80px;
     font-weight: 500;
     font-size: 1.5em;
 }
 
 .body2 {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 50px;
+    top: 55%;
+    transform: translateY(-55%);
+    margin-left: 80px;
     font-weight: 500;
     font-size: 1.5em;
 }
 
 .site-visits {
-    margin-top: -5px;
+    margin-top: -14px;
 }
 
 .online-visits {
-    margin-top: -15px;
+    margin-top: -19px;
 }
 
 .color-black {
@@ -48,7 +52,6 @@ img {
 }
 
 .color-black-site {
-    margin-left: 105px;
     color: #0f0f0f;
     font-weight: bold;
 }
@@ -70,21 +73,23 @@ img {
     .body {
         position: absolute;
         top: 69px;
-        margin-left: 15px;
+        margin-left: 40px;
     }
 
     .body2 {
         position: absolute;
         top: 128px;
-        margin-left: 15px;
+        margin-left: 40px;
     }
 
     .site-visits {
-        margin-top: -5px;
+        margin-top: -10px;
+        font-size: 1.1em;
     }
     
     .online-visits {
-        margin-top: -15px;
+        margin-top: -8px;
+        font-size: 1.1em;
     }
     
     .color-black {
@@ -93,7 +98,6 @@ img {
     }
     
     .color-black-site {
-        margin-left: 40px;
         color: #0f0f0f;
         font-weight: bold;
     }    
