@@ -73,4 +73,12 @@
   .container--streaming {
     height: 70vh;
   }
+
+  .container--streaming {
+    flex-direction: column;
+  }
+
+  .containerStreaming--logo {
+    margin-left: 0px;
+  }
 }
