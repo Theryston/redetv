@@ -17,7 +17,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -37,7 +37,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -49,7 +49,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -69,7 +69,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -81,7 +81,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -101,7 +101,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -113,7 +113,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -133,7 +133,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -145,7 +145,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -165,7 +165,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -177,7 +177,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -197,7 +197,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -209,7 +209,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -229,7 +229,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -241,7 +241,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -261,7 +261,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -273,7 +273,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -293,7 +293,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -305,7 +305,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -325,7 +325,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -337,7 +337,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -357,7 +357,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -369,7 +369,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -389,7 +389,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -401,7 +401,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -421,7 +421,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -433,7 +433,7 @@ export class ShowService {
         name: 'Conecte-se',
         description: 'O programa CONECTE-SE, com Carlos Verahnnay, conecta vc, empresário, empreendedor ao mundo Business, ao mundo do branding. Vamos descobrir juntos que existe sempre um método, um padrão por trás de pessoas de sucesso! Domingo às 11h00, você vê Conecte-se na TV e no site da RedeTV! ES',
         short_description: 'Uma viagem pelo universo do empreendedorismo!',
-        trailers: ['https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80'],
+        trailers: ['https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4'],
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
@@ -453,7 +453,7 @@ export class ShowService {
             number: 1,
             sources: [{
               main: true,
-              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
           }]
         }],
@@ -466,82 +466,82 @@ export class ShowService {
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         show_name: 'Conecte-se',
         main: true,
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
       {
         main: false,
         show_name: 'Conecte-se',
-        url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204221&authkey=AGo_SlNe4f5bA80',
+        url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
       },
     ]
   }
