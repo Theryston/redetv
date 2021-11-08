@@ -10,6 +10,7 @@ import { StreamingComponent } from './shared/components/streaming/streaming.comp
 import { ShowComponent } from './shared/components/show/show.component';
 import { SourceComponent } from './shared/components/source/source.component';
 import { LogoComponent } from './shared/components/logo/logo.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LogoComponent } from './shared/components/logo/logo.component';
     StreamingComponent,
     ShowComponent,
     SourceComponent,
-    LogoComponent
+    LogoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -76,7 +76,7 @@
   margin-right: 50px;
   margin-top: 0px;
   display: grid;
-  grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+  grid-template-columns: 105px 105px 105px 105px 105px 105px 105px 105px 105px 105px;
   grid-gap: 20px;
 }
 
