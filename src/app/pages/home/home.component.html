@@ -5,13 +5,17 @@
   </div>
   <section class="container--section">
     <img src="assets/arrow.png" alt="icon">
-    <p>Programas</p>
+    <p>PROGRAMAS</p>
   </section>
   <div class="container--shows">
     <div class="container--show" *ngFor="let show of shows">
       <app-show [show]="show"></app-show>
     </div>
   </div>
+  <section class="container--section">
+    <img src="assets/arrow.png" alt="icon">
+    <p>QUADROS</p>
+  </section>
   <div class="container--sources">
     <div *ngFor="let source of sources">
       <div class="container--source">
@@ -19,6 +23,10 @@
       </div>
     </div>
   </div>
+  <section class="container--section">
+    <img src="assets/arrow.png" alt="icon">
+    <p>CLIENTES ATIVOS</p>
+  </section>
   <div class="container--logos">
     <div *ngFor="let logo of logos">
       <div class="container--logo">
@@ -26,6 +34,10 @@
       </div>
     </div>
   </div>
+  <section class="container--section">
+    <img src="assets/arrow.png" alt="icon">
+    <p>CLIENTES</p>
+  </section>
   <div class="container--logos">
     <div *ngFor="let logo of logosNoAcitive">
       <div class="container--logo">

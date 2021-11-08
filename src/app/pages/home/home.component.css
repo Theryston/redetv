@@ -6,7 +6,6 @@
   color: #FFF;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .container--title {
@@ -27,6 +26,7 @@
   align-items: center;
   margin-left: 55px;
   margin-bottom: 5px;
+  margin-top: 25px;
 }
 
 .container--section p {
@@ -54,7 +54,7 @@
 .container--sources {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 30px;
+  margin-top: 0px;
   display: grid;
   grid-template-columns: 295px 295px 295px 295px;
   grid-gap: 20px;
@@ -63,7 +63,7 @@
 .container--logos {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: 0px;
   display: grid;
   grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
   grid-gap: 20px;
@@ -87,14 +87,27 @@
   .container--shows {
     margin-left: 5px;
     grid-gap: 10px;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: calc(50vw - 10px) calc(50vw - 10px);
   }
 
   .container--section {
-    margin-left: 5px;
+    margin-left: 6px;
   }
 
   .container--section p {
     margin-left: 5px;
+  }
+
+  .container--sources {
+    grid-template-columns: calc(100vw - 10px);
+    grid-gap: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+
+  .container--logos {
+    grid-template-columns: calc(24vw - 10px) calc(24vw - 10px) calc(24vw - 10px) calc(24vw - 10px);
+    grid-gap: 10px;
+    margin-left: 10px;
   }
 }
