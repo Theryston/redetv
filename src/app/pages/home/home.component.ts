@@ -33,7 +33,9 @@ export class HomeComponent implements OnInit {
 
     const dialogRef = this.dialog.open(ShowPageComponent, {
       width: '100vw',
+      maxHeight: '99vh',
       data: { show: showPlaying },
+      // scrollStrategy: 
     });
 
     dialogRef.afterClosed().subscribe(result => {

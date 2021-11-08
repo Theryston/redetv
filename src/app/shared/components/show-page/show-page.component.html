@@ -1,3 +1,13 @@
 <div class="container">
     <video *ngIf="playingEpisode.mainSource !== undefined" [src]="playingEpisode.mainSource.url" controls></video>
+    <div class="body">
+        <div class="details">
+            <img [src]="show.posters[0]" alt="">
+            <div class="metadata">
+                <h1>{{show.name}}</h1>
+                <p>{{show.short_description}}</p>
+                <p class="description">{{show.description}}</p>
+            </div>
+        </div>
+    </div>
 </div>
