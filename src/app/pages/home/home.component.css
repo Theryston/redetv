@@ -80,5 +80,21 @@
 
   .containerStreaming--logo {
     margin-left: 0px;
+    width: 80px;
+    margin-top: 10px;
+  }
+
+  .container--shows {
+    margin-left: 5px;
+    grid-gap: 10px;
+    grid-template-columns: 150px 150px;
+  }
+
+  .container--section {
+    margin-left: 5px;
+  }
+
+  .container--section p {
+    margin-left: 5px;
   }
 }
