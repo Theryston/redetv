@@ -1,12 +1,12 @@
 <div class="container">
-    <video *ngIf="playingEpisode.mainSource !== undefined" [src]="playingEpisode.mainSource.url" controls></video>
+    <video autoPlay="true" *ngIf="playingEpisode.mainSource !== undefined" [src]="playingEpisode.mainSource.url" [poster]="playingEpisode.mainSource.poster" controls></video>
     <div class="seasons" *ngIf="selectSeason">
         <button *ngFor="let season of show.seasons; let index = index" (click)="chosenSeason(index)">
             Temporada {{index + 1}}
         </button>
     </div>
     <div class="seasons" *ngIf="!selectSeason">
-        <app-episodes [episodes]="season.episodes"></app-episodes>
+        <app-episodes [episodes]="season.episodes" (onChangeEpisode)="onChangeEpisode($event)"></app-episodes>
     </div>
     <div class="body">
         <div class="details">

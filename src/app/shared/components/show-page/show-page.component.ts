@@ -13,6 +13,7 @@ export class ShowPageComponent implements OnInit {
   show: ShowModel;
   selectSeason: boolean = true;
   season: SeasonModel;
+  seasonIndex: number;
 
   constructor(
     public dialogRef: MatDialogRef<ShowPageComponent>,
@@ -23,13 +24,20 @@ export class ShowPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.show.seasons[0].episodes[0].mainSource = this.show.seasons[0].episodes[0].sources.find(s => s.main);
-    console.log(this.show)
     this.playingEpisode = this.show.seasons[0].episodes[0];
   }
 
   chosenSeason(index: number): void {
     this.season = this.show.seasons[index];
+    this.seasonIndex = index;
     this.selectSeason = false;
+  }
+
+  onChangeEpisode(episodeIndex: number): void {
+    let episode = this.show.seasons[this.seasonIndex].episodes[episodeIndex];
+    episode.mainSource = episode.sources.find(s => s.main);
+    this.playingEpisode = episode;
+    console.log(this.playingEpisode)
   }
 
 }

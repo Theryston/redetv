@@ -1,0 +1,26 @@
+.episodes-container {
+    position: relative;
+}
+
+.listArea {
+    overflow-x: scroll;
+    width: inherit;
+}
+
+.episodes-list {
+    transition: all ease 0.5s;
+}
+
+.episode {
+    display: inline-block;
+    width: 220px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.episode-image {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}

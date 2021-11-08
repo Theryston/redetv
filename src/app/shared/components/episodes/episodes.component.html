@@ -1,1 +1,9 @@
-<p>episodes works!</p>
+<div class="episodes-container" [ngStyle]="{'width': (widthList)+'px'}">
+    <div class="listArea">
+        <div class="episodes-list" [ngStyle]="{'width': 230*episodes.length+'px'}">
+            <div class="episode" *ngFor="let episode of episodes; let index = index" (click)="changeEpisode(index)">
+                <img [src]="episode.sources[0].poster" alt="poster" class="episode-image">
+            </div>
+        </div>
+    </div>
+</div>

@@ -36,6 +36,47 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
+              main: true,
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+            }]
+          }, {
+            name: 'Conecte-se',
+            number: 1,
+            sources: [{
+              poster: 'https://br.web.img3.acsta.net/r_1920_1080/pictures/21/11/08/10/24/1856083.jpg',
+              main: true,
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/21/08/20/19/19565091_hd_013.mp4',
+            }]
+          }, {
+            name: 'Conecte-se',
+            number: 1,
+            sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
+              main: true,
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+            }]
+          }, {
+            name: 'Conecte-se',
+            number: 1,
+            sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
+              main: true,
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+            }]
+          }, {
+            name: 'Conecte-se',
+            number: 1,
+            sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
+              main: true,
+              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+            }]
+          }, {
+            name: 'Conecte-se',
+            number: 1,
+            sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -47,6 +88,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -79,6 +121,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -111,6 +154,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -143,6 +187,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -175,6 +220,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -207,6 +253,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -239,6 +286,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -271,6 +319,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -303,6 +352,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -335,6 +385,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -367,6 +418,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -399,6 +451,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -431,6 +484,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -463,6 +517,7 @@ export class ShowService {
             name: 'Conecte-se',
             number: 1,
             sources: [{
+              poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
               url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
             }]
@@ -478,81 +533,97 @@ export class ShowService {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         show_name: 'Conecte-se',
         main: true,
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
       {
         main: false,
         show_name: 'Conecte-se',
         url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+        poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
       },
     ]
   }
