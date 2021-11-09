@@ -7,8 +7,10 @@ import { EpisodeModel } from '../../models/show.model';
   styleUrls: ['./episodes.component.css']
 })
 export class EpisodesComponent implements OnInit {
+  scrollX = 0;
   @Input() episodes: EpisodeModel[];
   widthList: number;
+  widthContainer: number | undefined;
 
   @Output() onChangeEpisode = new EventEmitter();
 
@@ -16,6 +18,7 @@ export class EpisodesComponent implements OnInit {
 
   ngOnInit(): void {
     let width = document.querySelector('mat-dialog-container')?.clientWidth;
+    this.widthContainer = document.querySelector('mat-dialog-container')?.clientWidth
     if (width) {
       this.widthList = width - 40;
     } else {
@@ -25,6 +28,31 @@ export class EpisodesComponent implements OnInit {
 
   changeEpisode(index: number): void {
     this.onChangeEpisode.emit(index)
+  }
+
+  handleLeftArrow() {
+    let width = document.querySelector('mat-dialog-container')?.clientWidth;
+    if (width !== undefined) {
+      let x = this.scrollX + Math.round(width / 2);
+      if (x > 0) {
+        x = 0;
+      }
+      this.scrollX = x;
+    }
+  }
+
+  handleRightArrow() {
+    let width = document.querySelector('mat-dialog-container')?.clientWidth;
+    if (width !== undefined) {
+      let x = this.scrollX - Math.round(width / 2);
+      let listW = this.episodes.length * 220;
+
+      if ((width - listW) > x) {
+        x = (width - listW) - 60;
+      }
+
+      this.scrollX = x;
+    }
   }
 
 }

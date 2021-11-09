@@ -17,7 +17,7 @@
 }
 
 .listArea {
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
     width: inherit;
 }
@@ -32,10 +32,32 @@
     height: 120px;
     margin-right: 10px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .episode-image {
     width: inherit;
     height: inherit;
     object-fit: cover;
+}
+
+.movieRow--left, .movieRow--right {
+    position: absolute;
+    width: 40px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    z-index: 998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.5s;
+}
+.movieRow--left {
+    left: 0;
+}
+.movieRow--right {
+    right: 0;
 }

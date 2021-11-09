@@ -24,7 +24,7 @@ export class ShowPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.show.seasons[0].episodes[0].mainSource = this.show.seasons[0].episodes[0].sources.find(s => s.main);
-    this.playingEpisode = this.show.seasons[0].episodes[0];
+    // this.playingEpisode = this.show.seasons[0].episodes[0];
   }
 
   chosenSeason(index: number): void {
