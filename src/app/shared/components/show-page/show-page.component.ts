@@ -14,6 +14,7 @@ export class ShowPageComponent implements OnInit {
   selectSeason: boolean = true;
   season: SeasonModel;
   seasonIndex: number;
+  views = 100;
 
   constructor(
     public dialogRef: MatDialogRef<ShowPageComponent>,

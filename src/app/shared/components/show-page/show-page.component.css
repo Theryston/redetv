@@ -11,6 +11,21 @@ video {
     border-radius: 10px;
 }
 
+.video-datas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-datas  .views {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 600;
+}
+
 .body {
     width: 100%;
     margin-top: 20px;
@@ -52,7 +67,7 @@ video {
     margin-top: 10px;
 }
 
-.seasons button {
+button {
     margin: 10px;
     width: 130px;
     height: 40px;
@@ -62,6 +77,36 @@ video {
     color: #FFF;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.share {
+    background: #075E54;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+}
+
+.like p {
+    margin-top: 15px;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.share p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
 }
 
 @media (max-width: 768px) {
@@ -77,4 +122,5 @@ video {
         width: 100%;
         margin-bottom: 10px;
     }
+    
 }
