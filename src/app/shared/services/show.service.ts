@@ -38,7 +38,7 @@ export class ShowService {
             sources: [{
               poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
-              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204444&authkey=AEhPdKEQahGx2yw',
             }]
           }, {
             name: 'Programa',
@@ -46,7 +46,7 @@ export class ShowService {
             sources: [{
               poster: 'https://br.web.img3.acsta.net/r_1920_1080/pictures/21/11/08/10/24/1856083.jpg',
               main: true,
-              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/21/08/20/19/19565091_hd_013.mp4',
+              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204446&authkey=AGuusL29fNbTIu8',
             }]
           }, {
             name: 'Programa',
@@ -54,7 +54,7 @@ export class ShowService {
             sources: [{
               poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
-              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204443&authkey=ADeIX_rZ7D_E_o4',
             }]
           }, {
             name: 'Programa',
@@ -62,7 +62,7 @@ export class ShowService {
             sources: [{
               poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
-              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204445&authkey=AEJY8AmZ2zm9d_8',
             }]
           }, {
             name: 'Programa',
@@ -70,7 +70,7 @@ export class ShowService {
             sources: [{
               poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
-              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204447&authkey=ANUbmubwhSaG6OM',
             }]
           }, {
             name: 'Programa',
@@ -78,7 +78,7 @@ export class ShowService {
             sources: [{
               poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
-              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204448&authkey=AN5r0UF8wFeJZNM',
             }]
           }]
         }, {
@@ -90,7 +90,7 @@ export class ShowService {
             sources: [{
               poster: 'https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.jpg?size=626&ext=jpg',
               main: true,
-              url: 'https://br.vid.web.acsta.net/uk/medias/nmedia/55/18/04/24/16/19558442_hd_013.mp4',
+              url: 'https://onedrive.live.com/download?cid=005AB9D856DFC48D&resid=5AB9D856DFC48D%21204449&authkey=AExE-i4DN6mRz1k',
             }]
           }]
         }],
