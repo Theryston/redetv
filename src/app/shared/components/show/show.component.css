@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  min-height: 250px;
+  height: 250px;
   background-size: cover;
   background-position: 50% 50%;
   border-radius: 10px;
@@ -10,12 +10,11 @@
   transition: all 0.2s;
   position: relative;
 }
-.container .footer {
-  position: absolute;
-  bottom: -100px;
+.footer {
   width: calc(100% - 10px);
+  margin-top: 0px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fff;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -26,14 +25,11 @@
 .container:hover {
   transform: scale(1);
 }
-.container:hover .footer {
-  bottom: 0px;
-}
-.container .footer .name {
+.footer .name {
   font-size: 1em;
   margin: 0px;
   font-weight: normal;
-  color: #fff;
+  color: #333;
 }
 .first-description {
   margin: 0px;

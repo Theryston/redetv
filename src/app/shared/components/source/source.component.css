@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 200px;
+  height: 230px;
   background-size: cover;
   background-position: 50% 50%;
   border-radius: 10px;
@@ -12,12 +12,10 @@
 }
 .container video {
   width: 100%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
 }
 .container .footer {
-  position: absolute;
-  top: -100px;
   width: calc(100% - 10px);
   height: 30px;
   border-radius: 10px;
@@ -29,9 +27,6 @@
 }
 .container:hover {
   transform: scale(1);
-}
-.container:hover .footer {
-  top: 0px;
 }
 .container .footer .name {
   font-size: 1em;

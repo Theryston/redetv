@@ -37,7 +37,6 @@ export class ShowPageComponent implements OnInit {
     let episode = this.show.seasons[this.seasonIndex].episodes[episodeIndex];
     episode.mainSource = episode.sources.find(s => s.main);
     this.playingEpisode = episode;
-    console.log(this.playingEpisode)
   }
 
 }
