@@ -1,6 +1,6 @@
 footer {
     background: #0f0f0f;
-    height: 200px;
+    height: 300px;
     margin-top: 10px;
     padding-top: 100px;
     display: flex;
@@ -23,6 +23,19 @@ footer .redetv-logo {
 
 .footer_2 {
     margin-top: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.socials img {
+    width: 130px;
+    margin: 5px;
 }
 
 img {
@@ -95,12 +108,12 @@ img {
     }
 
     .site-visits {
-        margin-top: -10px;
+        margin-top: -48px;
         font-size: 1.1em;
     }
     
     .online-visits {
-        margin-top: -8px;
+        margin-top: -45px;
         font-size: 1.1em;
     }
     
@@ -113,4 +126,9 @@ img {
         color: #0f0f0f;
         font-weight: bold;
     }    
+
+    .socials img {
+        width: 80px;
+    }
+
 }
