@@ -13,14 +13,19 @@ import { ShowPageComponent } from 'src/app/shared/components/show-page/show-page
 })
 export class HomeComponent implements OnInit {
   shows: ShowModel[];
+  mainShows: ShowModel[];
   sources: SourceModel[];
   logos: LogoModel[];
   logosNoAcitive: LogoModel[];
   showPlaying: ShowModel;
+  scrollX = 0;
+  widthContainer: number | undefined;
 
   constructor(private showService: ShowService, public dialog: MatDialog) { }
 
   async ngOnInit() {
+    this.widthContainer = window.innerWidth;
+    this.mainShows = await this.showService.getMainShows()
     this.shows = await this.showService.getAllShows();
     this.sources = (await this.showService.getSources()).filter(show => !show.main);
     this.logos = await this.showService.getLogosActive();
@@ -43,4 +48,28 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  handleLeftArrow() {
+    let width = window.innerWidth;
+    if (width !== undefined) {
+      let x = this.scrollX + Math.round(width / 2);
+      if (x > 0) {
+        x = 0;
+      }
+      this.scrollX = x;
+    }
+  }
+
+  handleRightArrow() {
+    let width = window.innerWidth;
+    if (width !== undefined) {
+      let x = this.scrollX - Math.round(width / 2);
+      let listW = this.shows.length * 180;
+
+      if ((width - listW) > x) {
+        x = (width - listW) - 100;
+      }
+
+      this.scrollX = x;
+    }
+  }
 }

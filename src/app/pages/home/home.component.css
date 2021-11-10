@@ -52,6 +52,46 @@
   grid-gap: 20px;
 }
 
+.container--showsScroll {
+  margin-right: 50px;
+  margin-left: 50px;
+  overflow-x: hidden;
+}
+
+
+.container-scroll {
+  margin-left: 0px;
+  transition: all 0.2s ease;
+}
+
+.container--showScroll {
+  width: 160px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.movieRow--left, .movieRow--right {
+  position: absolute;
+  margin-top: 5px;
+  width: 40px;
+  height: 238px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  z-index: 998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 1;
+  transition: all ease 0.5s;
+}
+.movieRow--left {
+  left: 23px;
+}
+.movieRow--right {
+  right: 23px;
+}
+
 .bg-black {
   background: #0f0f0f;
   color: #fff;
@@ -119,5 +159,18 @@
     grid-template-columns: calc(24vw - 10px) calc(24vw - 10px) calc(24vw - 10px) calc(24vw - 10px);
     grid-gap: 10px;
     margin-left: 10px;
+  }
+
+  .container--showsScroll {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .movieRow--left {
+    left: 0px;
+  }
+
+  .movieRow--right {
+    right: 0px;
   }
 }
