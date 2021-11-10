@@ -14,7 +14,6 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ShowPageComponent } from './shared/components/show-page/show-page.component';
 import { EpisodesComponent } from './shared/components/episodes/episodes.component';
-import { SourcePageComponent } from './shared/components/source-page/source-page.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +25,7 @@ import { SourcePageComponent } from './shared/components/source-page/source-page
     LogoComponent,
     FooterComponent,
     ShowPageComponent,
-    EpisodesComponent,
-    SourcePageComponent
+    EpisodesComponent
   ],
   imports: [
     BrowserModule,

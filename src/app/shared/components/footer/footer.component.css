@@ -1,6 +1,6 @@
 footer {
     background: #0f0f0f;
-    height: 300px;
+    height: 310px;
     margin-top: 10px;
     padding-top: 100px;
     display: flex;
@@ -34,7 +34,7 @@ footer .redetv-logo {
 }
 
 .socials img {
-    width: 130px;
+    width: 200px;
     margin: 5px;
 }
 
@@ -68,7 +68,7 @@ img {
 }
 
 .online-visits {
-    margin-top: -19px;
+    margin-top: -15px;
 }
 
 .color-black {

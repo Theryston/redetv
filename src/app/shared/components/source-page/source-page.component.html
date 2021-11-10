@@ -1,6 +1,7 @@
+<div class="close" (click)="close()">X</div>
 <div class="container">
-    <video *ngIf="source !== undefined" [src]="source.url" [poster]="source.poster" controls></video>
-    <div *ngIf="source !== undefined" class="video-datas">
+    <video [src]="source.url" [poster]="source.poster" controls></video>
+    <div class="video-datas">
         <a href="https://web.whatsapp.com/send?text=http://www.redetvto.com.br">
             <button class="share">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

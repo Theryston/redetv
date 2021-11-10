@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   visits_online = '100';
   visits_site = '99';
+  logo = 'assets/logo.png';
 
   constructor() { }
 

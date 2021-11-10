@@ -1,5 +1,6 @@
+<div class="close" (click)="close()">X</div>
 <div class="container">
-    <video *ngIf="playingEpisode && playingEpisode.mainSource !== undefined"
+    <video autoPlay="true" *ngIf="playingEpisode && playingEpisode.mainSource !== undefined"
         [src]="playingEpisode.mainSource.url" [poster]="playingEpisode.mainSource.poster" controls></video>
     <div *ngIf="playingEpisode && playingEpisode.mainSource !== undefined" class="video-datas">
         <a href="https://web.whatsapp.com/send?text=http://www.redetvto.com.br">

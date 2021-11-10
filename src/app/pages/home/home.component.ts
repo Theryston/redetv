@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
   showPlaying: ShowModel;
   scrollX = 0;
   widthContainer: number | undefined;
+  logo = 'assets/logo.png';
 
   constructor(private showService: ShowService, public dialog: MatDialog) { }
 

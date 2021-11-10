@@ -20,4 +20,8 @@ export class SourcePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  close() {
+    this.dialogRef.close()
+  }
+
 }

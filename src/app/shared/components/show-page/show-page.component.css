@@ -2,6 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.close {
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 video {

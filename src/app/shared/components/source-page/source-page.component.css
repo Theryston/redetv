@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+.close {
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 video {
     width: 100%;
     height: 400px;
