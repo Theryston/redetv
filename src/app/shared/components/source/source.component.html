@@ -1,5 +1,5 @@
 <div class="container" (mouseenter)="setControls()" (mouseleave)="unsetControls()">
-  <video [src]="source.url" [poster]="source.poster" [controls]="controls"></video>
+  <video [muted]="true" [src]="source.url" [poster]="source.poster"></video>
   <div class="footer">
     <p class="name">{{source.show_name}}</p>
   </div>

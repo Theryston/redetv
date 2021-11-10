@@ -5,6 +5,7 @@ import { LogoModel, ShowModel, SourceModel } from 'src/app/shared/models/show.mo
 import { ShowService } from 'src/app/shared/services/show.service';
 import { MatDialog } from '@angular/material/dialog';
 import { ShowPageComponent } from 'src/app/shared/components/show-page/show-page.component';
+import { SourcePageComponent } from 'src/app/shared/components/source-page/source-page.component';
 
 @Component({
   selector: 'app-home',
@@ -41,6 +42,17 @@ export class HomeComponent implements OnInit {
       maxHeight: '99vh',
       data: { show: showPlaying },
       // scrollStrategy: 
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
+
+  openDetailsSource(source: SourceModel) {
+    const dialogRef = this.dialog.open(SourcePageComponent, {
+      width: '100vw',
+      data: { source },
     });
 
     dialogRef.afterClosed().subscribe(result => {

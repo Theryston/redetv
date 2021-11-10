@@ -40,7 +40,7 @@
   </section>
   <div class="container--sources">
     <div *ngFor="let source of sources">
-      <div class="container--source">
+      <div (click)="openDetailsSource(source)" class="container--source">
         <app-source [source]="source"></app-source>
       </div>
     </div>

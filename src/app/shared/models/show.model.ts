@@ -45,6 +45,8 @@ export interface SourceModel {
   _id?: string;
   show_id?: string;
   show_name?: string;
+  views_count: number;
+  like_count: number;
 }
 
 export interface LogoModel {
