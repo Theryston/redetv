@@ -17,7 +17,7 @@
   font-size: .9em;
 }
 .containerStreaming--logo {
-  width: 120px;
+  width: calc(120px * 1.2);
   margin-left: 150px;
 }
 

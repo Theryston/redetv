@@ -1,6 +1,5 @@
 <div class="container">
-    <video autoPlay="true" *ngIf="source !== undefined"
-        [src]="source.url" [poster]="source.poster" controls></video>
+    <video *ngIf="source !== undefined" [src]="source.url" [poster]="source.poster" controls></video>
     <div *ngIf="source !== undefined" class="video-datas">
         <a href="https://web.whatsapp.com/send?text=http://www.redetvto.com.br">
             <button class="share">
