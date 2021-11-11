@@ -27,4 +27,15 @@
         </a>
     </div>
     <img [src]="logo" alt="logo" class="redetv-logo">
+
+    <div class="conatiner--logo-friends">
+        <p>
+            Notícias:
+        </p>
+        <div class="logo-friends">
+            <a *ngFor="let friend of LogosFrinds" [href]="friend.link">
+                <img [src]="friend.url">
+            </a>
+        </div>
+    </div>
 </footer>

@@ -51,6 +51,7 @@ export interface SourceModel {
 
 export interface LogoModel {
   url: string;
+  link?: string;
   company_name: string;
   active: boolean;
 }

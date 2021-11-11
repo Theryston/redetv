@@ -81,6 +81,24 @@ img {
     font-weight: bold;
 }
 
+.conatiner--logo-friends {
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-friends {
+    display: flex;
+}
+
+.logo-friends img {
+    width: 50px;
+}
+
 @media (max-width: 768px) {
     footer {
         flex-direction: column;

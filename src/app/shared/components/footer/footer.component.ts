@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LogoModel } from '../../models/show.model'
+import { ShowService } from '../../services/show.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,10 +11,12 @@ export class FooterComponent implements OnInit {
   visits_online = '100';
   visits_site = '99';
   logo = 'assets/logo.png';
+  LogosFrinds: LogoModel[];
 
-  constructor() { }
+  constructor(private showService: ShowService) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    this.LogosFrinds = await this.showService.getLogosFrinds();
   }
 
 }

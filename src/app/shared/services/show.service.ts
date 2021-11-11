@@ -1082,4 +1082,27 @@ export class ShowService {
       },
     ]
   }
+
+  async getLogosFrinds(): Promise<LogoModel[]> {
+    return [
+      {
+        url: "assets/logos/(1).jpeg",
+        company_name: "empresa_top",
+        active: false,
+        link: 'https://google.com'
+      },
+      {
+        url: "assets/logos/(2).jpeg",
+        company_name: "empresa_top",
+        active: false,
+        link: 'https://google.com'
+      },
+      {
+        url: "assets/logos/(3).jpeg",
+        company_name: "empresa_top",
+        active: false,
+        link: 'https://google.com'
+      }
+    ]
+  }
 }
