@@ -9,7 +9,6 @@ export interface ShowModel {
   default_duration: string;
   show_hosts_name: string[];
   categories: CategoryModel[];
-  categories_id?: string[];
   seasons: SeasonModel[];
   created_at?: Date | number;
 }
@@ -43,7 +42,6 @@ export interface SourceModel {
   poster: string;
   main: boolean;
   _id?: string;
-  show_id?: string;
   show_name?: string;
   views_count: number;
   like_count: number;

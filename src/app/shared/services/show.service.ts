@@ -21,7 +21,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -120,7 +119,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -155,7 +153,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -190,7 +187,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -225,7 +221,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -260,7 +255,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -295,7 +289,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -334,7 +327,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -433,7 +425,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -468,7 +459,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -503,7 +493,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -538,7 +527,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -573,7 +561,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -608,7 +595,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -643,7 +629,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -678,7 +663,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -713,7 +697,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -748,7 +731,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -783,7 +765,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -818,7 +799,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
@@ -853,7 +833,6 @@ export class ShowService {
         release_date_of: Date.now(),
         default_duration: '30min',
         show_hosts_name: ['Carlos Verahnnay'],
-        categories_id: ['omoxisxnsox'],
         categories: [{
           name: 'Branding'
         }, {
