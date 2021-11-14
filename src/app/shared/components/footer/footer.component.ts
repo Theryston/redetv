@@ -10,13 +10,14 @@ import { ShowService } from '../../services/show.service';
 export class FooterComponent implements OnInit {
   visits_online = '100';
   visits_site = '99';
-  logo = 'assets/logo.png';
+  logo: { url: string, _id: string } | undefined;
   LogosFrinds: LogoModel[];
 
   constructor(private showService: ShowService) { }
 
   async ngOnInit() {
     this.LogosFrinds = await this.showService.getLogosFrinds();
+    this.logo = await this.showService.getRedetvLogo();
   }
 
 }

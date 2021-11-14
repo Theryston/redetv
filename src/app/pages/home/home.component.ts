@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
   showPlaying: ShowModel;
   scrollX = 0;
   widthContainer: number | undefined;
-  logo = 'assets/logo.png';
+  logo: { url: string, _id: string } | undefined;
 
   constructor(private showService: ShowService, public dialog: MatDialog) { }
 
@@ -32,6 +32,7 @@ export class HomeComponent implements OnInit {
     this.sources = (await this.showService.getSources()).filter(show => !show.main);
     this.logos = await this.showService.getLogosActive();
     this.logosNoAcitive = await this.showService.getLogosNoActive();
+    this.logo = await this.showService.getRedetvLogo();
   }
 
   openDetails(event: String, index: number): void {

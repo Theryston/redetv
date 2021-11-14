@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
 
 import { LogoModel, ShowModel, SourceModel } from '../models/show.model';
 
@@ -6,8 +8,17 @@ import { LogoModel, ShowModel, SourceModel } from '../models/show.model';
   providedIn: 'root'
 })
 export class ShowService {
+  BASE_URL = 'https://redetv.herokuapp.com';
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+
+  async getRedetvLogo(): Promise<{ url: string, _id: string } | undefined> {
+    try {
+      return await this.http.get<{ url: string, _id: string } | undefined>(this.BASE_URL + `/show/redetv/logo`).toPromise();
+    } catch (error) {
+      throw error;
+    }
+  }
 
   async getMainShows(): Promise<ShowModel[]> {
     return [
