@@ -1024,25 +1024,11 @@ export class ShowService {
   }
 
   async getLogosFrinds(): Promise<LogoModel[]> {
-    return [
-      {
-        url: "assets/logos/(1).jpeg",
-        company_name: "empresa_top",
-        active: false,
-        link: 'https://google.com'
-      },
-      {
-        url: "assets/logos/(2).jpeg",
-        company_name: "empresa_top",
-        active: false,
-        link: 'https://google.com'
-      },
-      {
-        url: "assets/logos/(3).jpeg",
-        company_name: "empresa_top",
-        active: false,
-        link: 'https://google.com'
-      }
-    ]
+    try {
+      const logos: any = await this.http.get(this.BASE_URL + `/show/news/list`).toPromise();
+      return logos;
+    } catch (error) {
+      throw error;
+    }
   }
 }
