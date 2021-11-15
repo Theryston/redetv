@@ -1004,73 +1004,23 @@ export class ShowService {
   }
 
   async getLogosActive(): Promise<LogoModel[]> {
-    return [
-      {
-        url: "assets/logos/(1).jpeg",
-        company_name: "empresa_top",
-        active: true,
-      },
-      {
-        url: "assets/logos/(2).jpeg",
-        company_name: "empresa_top",
-        active: true,
-      },
-      {
-        url: "assets/logos/(3).jpeg",
-        company_name: "empresa_top",
-        active: true,
-      },
-      {
-        url: "assets/logos/(4).jpeg",
-        company_name: "empresa_top",
-        active: true,
-      },
-      {
-        url: "assets/logos/(5).jpeg",
-        company_name: "empresa_top",
-        active: true,
-      },
-      {
-        url: "assets/logos/(6).jpeg",
-        company_name: "empresa_top",
-        active: true,
-      },
-    ]
+    try {
+      const allLogos: any = await this.http.get(this.BASE_URL + `/show/logo/list`).toPromise();
+      const logos = allLogos.filter((logo: LogoModel) => logo.active);
+      return logos;
+    } catch (error) {
+      throw error;
+    }
   }
 
   async getLogosNoActive(): Promise<LogoModel[]> {
-    return [
-      {
-        url: "assets/logos/(7).jpeg",
-        company_name: "empresa_top",
-        active: false,
-      },
-      {
-        url: "assets/logos/(8).jpeg",
-        company_name: "empresa_top",
-        active: false,
-      },
-      {
-        url: "assets/logos/(9).jpeg",
-        company_name: "empresa_top",
-        active: false,
-      },
-      {
-        url: "assets/logos/(10).jpeg",
-        company_name: "empresa_top",
-        active: false,
-      },
-      {
-        url: "assets/logos/(11).jpeg",
-        company_name: "empresa_top",
-        active: false,
-      },
-      {
-        url: "assets/logos/(12).jpeg",
-        company_name: "empresa_top",
-        active: false,
-      },
-    ]
+    try {
+      const allLogos: any = await this.http.get(this.BASE_URL + `/show/logo/list`).toPromise();
+      const logos = allLogos.filter((logo: LogoModel) => !logo.active);
+      return logos;
+    } catch (error) {
+      throw error;
+    }
   }
 
   async getLogosFrinds(): Promise<LogoModel[]> {
