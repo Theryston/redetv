@@ -1,6 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { EpisodeModel, SeasonModel, ShowModel } from '../../models/show.model';
+import { ShowService } from '../../services/show.service';
 
 @Component({
   selector: 'app-show-page',
@@ -10,21 +11,24 @@ import { EpisodeModel, SeasonModel, ShowModel } from '../../models/show.model';
 export class ShowPageComponent implements OnInit {
 
   playingEpisode: EpisodeModel;
-  show: ShowModel;
+  show: ShowModel | any;
   selectSeason: boolean = true;
   season: SeasonModel;
   seasonIndex: number;
   views = 100;
+  _id: string;
 
   constructor(
     public dialogRef: MatDialogRef<ShowPageComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: { show: ShowModel },
+    @Inject(MAT_DIALOG_DATA) public data: { _id: string },
+    private showService: ShowService
   ) {
-    this.show = this.data.show;
+    this._id = data._id;
   }
 
-  ngOnInit(): void {
-    this.show.seasons[0].episodes[0].mainSource = this.show.seasons[0].episodes[0].sources.find(s => s.main);
+  async ngOnInit() {
+    this.show = await this.showService.getShow(this._id)
+    this.show.seasons[0].episodes[0].mainSource = this.show.seasons[0].episodes[0].sources.find((s: any) => s.main);
     // this.playingEpisode = this.show.seasons[0].episodes[0];
   }
 
@@ -36,7 +40,7 @@ export class ShowPageComponent implements OnInit {
 
   onChangeEpisode(episodeIndex: number): void {
     let episode = this.show.seasons[this.seasonIndex].episodes[episodeIndex];
-    episode.mainSource = episode.sources.find(s => s.main);
+    episode.mainSource = episode.sources.find((s: any) => s.main);
     this.playingEpisode = episode;
   }
 

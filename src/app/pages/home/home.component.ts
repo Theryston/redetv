@@ -15,6 +15,7 @@ import { SourcePageComponent } from 'src/app/shared/components/source-page/sourc
 export class HomeComponent implements OnInit {
   shows: ShowModel[];
   mainShows: ShowModel[];
+  reliShows: ShowModel[];
   sources: SourceModel[];
   logos: LogoModel[];
   logosNoAcitive: LogoModel[];
@@ -28,22 +29,21 @@ export class HomeComponent implements OnInit {
   async ngOnInit() {
     this.widthContainer = window.innerWidth;
     this.mainShows = await this.showService.getMainShows()
+    this.reliShows = await this.showService.getReliShows()
     this.shows = await this.showService.getAllShows();
-    this.sources = (await this.showService.getSources()).filter(show => !show.main);
+    this.sources = await this.showService.getSources();
     this.logos = await this.showService.getLogosActive();
     this.logosNoAcitive = await this.showService.getLogosNoActive();
     this.logo = await this.showService.getRedetvLogo();
   }
 
-  openDetails(event: String, index: number): void {
-    this.showPlaying = this.shows[index];
-    const showPlaying = this.showPlaying;
+  openDetails(event: String, show: ShowModel): void {
+    this.showPlaying = show;
 
     const dialogRef = this.dialog.open(ShowPageComponent, {
       width: '100vw',
       maxHeight: '99vh',
-      data: { show: showPlaying },
-      // scrollStrategy: 
+      data: { _id: show._id },
     });
 
     dialogRef.afterClosed().subscribe(result => {
@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
   openDetailsSource(source: SourceModel) {
     const dialogRef = this.dialog.open(SourcePageComponent, {
       width: '100vw',
-      data: { source },
+      data: { _id: source._id },
     });
 
     dialogRef.afterClosed().subscribe(result => {

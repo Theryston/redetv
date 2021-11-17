@@ -1,6 +1,6 @@
 <div class="container" (click)="openDetails()" [ngStyle]="{'background-image': 'url(' + show.posters[0] + ')'}">
 </div>
 <div class="footer">
-  <p class="name">{{show.name}}</p>
-  <p class="first-description">{{show.short_description}}</p>
+  <p class="name">{{show.name.substring(0, 80)}}</p>
+  <p class="first-description">{{show.short_description.substring(0, 100)}}</p>
 </div>

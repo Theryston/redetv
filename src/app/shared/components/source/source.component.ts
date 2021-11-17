@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { SourceModel } from '../../models/show.model';
+import { ShowService } from '../../services/show.service';
 
 @Component({
   selector: 'app-source',
@@ -8,19 +9,11 @@ import { SourceModel } from '../../models/show.model';
 })
 export class SourceComponent implements OnInit {
   @Input() source: SourceModel;
-  controls = false;
 
-  constructor() { }
+  constructor(private showService: ShowService) { }
 
-  ngOnInit(): void {
-  }
-
-  setControls() {
-    this.controls = true;
-  }
-
-  unsetControls() {
-    this.controls = false;
+  async ngOnInit() {
+    this.source = await this.showService.getSource(this.source._id)
   }
 
 }

@@ -9,7 +9,7 @@
   </section>
   <div class="container--shows">
     <div class="container--show" *ngFor="let show of mainShows; let index = index">
-      <app-show [show]="show" (onOpenDetails)="openDetails($event, index)"></app-show>
+      <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
     </div>
   </div>
   <div *ngIf="scrollX !== 0" class="movieRow--left" (click)="handleLeftArrow()">
@@ -30,8 +30,17 @@
   <div class="container--showsScroll">
     <div class="container-scroll" [ngStyle]="{'margin-left': scrollX+'px', 'width': 180*shows.length+'px'}">
       <div class="container--showScroll" *ngFor="let show of shows; let index = index">
-        <app-show [show]="show" (onOpenDetails)="openDetails($event, index)"></app-show>
+        <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
       </div>
+    </div>
+  </div>
+  <section *ngIf="reliShows.length > 0" class="container--section">
+    <img src="assets/arrow.png" alt="icon">
+    <p>Programas Religiosos</p>
+  </section>
+  <div *ngIf="reliShows.length > 0" class="container--shows">
+    <div class="container--show" *ngFor="let show of reliShows; let index = index">
+      <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
     </div>
   </div>
   <section class="container--section bg-black">
