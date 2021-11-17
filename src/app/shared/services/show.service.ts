@@ -138,7 +138,11 @@ export class ShowService {
 
   async addView() {
     try {
-      const ip = (await this.http.get('https://meuip.herokuapp.com/api/json').toPromise() as any).ip;
+      let ip = localStorage.getItem('ip');
+      if (ip === null) {
+        localStorage.setItem('ip', await this.geraStringAleatoria(1000))
+        ip = localStorage.getItem('ip');
+      }
       console.log(ip)
       return await this.http.post(this.BASE_URL + '/show/view', { user_ip: ip }).toPromise();
     } catch (error) {
@@ -148,7 +152,11 @@ export class ShowService {
 
   async setViewOffline() {
     try {
-      const ip = (await this.http.get('https://meuip.herokuapp.com/api/json').toPromise() as any).ip;
+      let ip = localStorage.getItem('ip');
+      if (ip === null) {
+        localStorage.setItem('ip', await this.geraStringAleatoria(1000))
+        ip = localStorage.getItem('ip');
+      }
       return await this.http.patch(this.BASE_URL + `/show/view`, { user_ip: ip }).toPromise();
     } catch (error) {
       throw error;
@@ -169,5 +177,14 @@ export class ShowService {
     } catch (error) {
       throw error;
     }
+  }
+
+  async geraStringAleatoria(length: number) {
+    let stringAleatoria = '';
+    let caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    for (let i = 0; i < length; i++) {
+      stringAleatoria += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+    }
+    return stringAleatoria;
   }
 }
