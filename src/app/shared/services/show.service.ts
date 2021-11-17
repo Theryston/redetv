@@ -8,8 +8,8 @@ import { LogoModel, ShowModel, SourceModel } from '../models/show.model';
   providedIn: 'root'
 })
 export class ShowService {
-  BASE_URL = 'https://redetv.herokuapp.com';
-  // BASE_URL = 'http://localhost:2933';
+  // BASE_URL = 'https://redetv.herokuapp.com';
+  BASE_URL = 'http://localhost:2933';
 
   constructor(private http: HttpClient) { }
 
@@ -148,7 +148,7 @@ export class ShowService {
 
   async setViewOffline() {
     try {
-      const ip = (await this.http.get('https://meuip.herokuapp.com/api/json') as any).ip;
+      const ip = (await this.http.get('https://meuip.herokuapp.com/api/json').toPromise() as any).ip;
       return await this.http.patch(this.BASE_URL + `/show/view`, { user_ip: ip }).toPromise();
     } catch (error) {
       throw error;
