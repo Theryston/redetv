@@ -11,6 +11,7 @@ import { ShowService } from '../../services/show.service';
 export class SourcePageComponent implements OnInit {
   source: SourceModel;
   _id: string;
+  localSource = { liked: false };
 
   constructor(
     public dialogRef: MatDialogRef<SourcePageComponent>,
@@ -22,7 +23,22 @@ export class SourcePageComponent implements OnInit {
 
   async ngOnInit() {
     this.source = await this.showService.getSource(this._id);
-    console.log(this.source);
+    await this.showService.addViewToSource(this.source._id)
+    let localSource: any = localStorage.getItem(this.source._id ? this.source._id : '');
+    if (localSource === null) {
+      localStorage.setItem(this.source._id ? this.source._id : '', '{"liked": false}');
+      localSource = localStorage.getItem(this.source._id ? this.source._id : '');
+    }
+    this.localSource = JSON.parse(localSource);
+    this.source.views_count++;
+  }
+
+  async like() {
+    await this.showService.addLikeToSource(this.source._id);
+    this.source.like_count++;
+    localStorage.setItem(this.source._id ? this.source._id : '', JSON.stringify({ liked: true }));
+    let localSource: any = localStorage.getItem(this.source._id ? this.source._id : '');
+    this.localSource = JSON.parse(localSource);
   }
 
   close() {

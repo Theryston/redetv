@@ -12,14 +12,14 @@
       <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
     </div>
   </div>
-  <div *ngIf="scrollX !== 0" class="movieRow--left" (click)="handleLeftArrow()">
+  <div *ngIf="shows && scrollX !== 0" class="movieRow--left" (click)="handleLeftArrow()">
     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-left-fill"
       viewBox="0 0 16 16">
       <path
         d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
     </svg>
   </div>
-  <div *ngIf="scrollX > ((widthContainer || 0) - this.shows.length * 220) - 60" class="movieRow--right"
+  <div *ngIf="shows && scrollX > ((widthContainer || 0) - shows.length * 220) - 60" class="movieRow--right"
     (click)="handleRightArrow()">
     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-right-fill"
       viewBox="0 0 16 16">
@@ -28,17 +28,17 @@
     </svg>
   </div>
   <div class="container--showsScroll">
-    <div class="container-scroll" [ngStyle]="{'margin-left': scrollX+'px', 'width': 180*shows.length+'px'}">
+    <div *ngIf="shows" class="container-scroll" [ngStyle]="{'margin-left': scrollX+'px', 'width': 180*shows.length+'px'}">
       <div class="container--showScroll" *ngFor="let show of shows; let index = index">
         <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
       </div>
     </div>
   </div>
-  <section *ngIf="reliShows.length > 0" class="container--section">
+  <section *ngIf="reliShows && reliShows.length > 0" class="container--section">
     <img src="assets/arrow.png" alt="icon">
     <p>Programas Religiosos</p>
   </section>
-  <div *ngIf="reliShows.length > 0" class="container--shows">
+  <div *ngIf="reliShows && reliShows.length > 0" class="container--shows">
     <div class="container--show" *ngFor="let show of reliShows; let index = index">
       <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
     </div>

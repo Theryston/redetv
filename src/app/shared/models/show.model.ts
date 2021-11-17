@@ -31,6 +31,8 @@ export interface SeasonModel {
 export interface EpisodeModel {
   _id?: string;
   name: string;
+  views_count: number;
+  like_count: number;
   sources: SourceModel[];
   mainSource?: SourceModel;
   number: number;

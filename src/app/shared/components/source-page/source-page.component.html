@@ -1,5 +1,5 @@
 <div class="close" (click)="close()">X</div>
-<div class="container">
+<div *ngIf="source" class="container">
     <video [src]="source.url" [poster]="source.poster" controls></video>
     <div class="video-datas">
         <a href="https://web.whatsapp.com/send?text=http://www.redetvto.com.br">
@@ -14,7 +14,7 @@
                 </p>
             </button>
         </a>
-        <div class="like">
+        <div class="like" (click)="like()" *ngIf="!localSource.liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                 class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
                 <path
@@ -22,8 +22,11 @@
             </svg>
             <p>{{source.like_count}}</p>
         </div>
+        <div class="like-count" *ngIf="localSource.liked">
+            {{source.like_count}} like(s)
+        </div>
         <div class="views">
-            {{source.views_count}} views
+            {{source.views_count}} view(s)
         </div>
     </div>
 </div>

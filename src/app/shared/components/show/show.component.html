@@ -2,5 +2,7 @@
 </div>
 <div class="footer">
   <p class="name">{{show.name.substring(0, 80)}}</p>
-  <p class="first-description">{{show.short_description.substring(0, 100)}}</p>
+  <p class="first-description">
+    {{show.short_description.length > 43 ? show.short_description.substring(0, 43) + '...' : show.short_description}}
+  </p>
 </div>

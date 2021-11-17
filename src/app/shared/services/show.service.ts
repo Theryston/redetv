@@ -8,7 +8,8 @@ import { LogoModel, ShowModel, SourceModel } from '../models/show.model';
   providedIn: 'root'
 })
 export class ShowService {
-  BASE_URL = 'https://redetv.herokuapp.com';
+  // BASE_URL = 'https://redetv.herokuapp.com';
+  BASE_URL = 'http://localhost:2933';
 
   constructor(private http: HttpClient) { }
 
@@ -112,6 +113,59 @@ export class ShowService {
     try {
       const logos: any = await this.http.get(this.BASE_URL + `/show/news/list`).toPromise();
       return logos;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async addViewToSource(source_id: string | undefined) {
+    try {
+      await this.http.put(this.BASE_URL + `/show/source/view/${source_id}`, {}).toPromise();
+      return true;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async addLikeToSource(source_id: string | undefined) {
+    try {
+      await this.http.put(this.BASE_URL + `/show/source/like/${source_id}`, {}).toPromise();
+      return true;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async addView() {
+    try {
+      const ip = (await this.http.get('https://meuip.herokuapp.com/api/json').toPromise() as any).ip;
+      console.log(ip)
+      return await this.http.post(this.BASE_URL + '/show/view', { user_ip: ip }).toPromise();
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async setViewOffline() {
+    try {
+      const ip = (await this.http.get('https://meuip.herokuapp.com/api/json') as any).ip;
+      return await this.http.patch(this.BASE_URL + `/show/view`, { user_ip: ip }).toPromise();
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async getViewsOnline() {
+    try {
+      return await this.http.get(this.BASE_URL + `/show/view/online`).toPromise();
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async getAllViews() {
+    try {
+      return await this.http.get(this.BASE_URL + `/show/view`).toPromise();
     } catch (error) {
       throw error;
     }

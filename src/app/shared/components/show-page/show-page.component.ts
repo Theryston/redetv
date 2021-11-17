@@ -17,6 +17,8 @@ export class ShowPageComponent implements OnInit {
   seasonIndex: number;
   views = 100;
   _id: string;
+  localSource = { liked: false };
+
 
   constructor(
     public dialogRef: MatDialogRef<ShowPageComponent>,
@@ -28,6 +30,7 @@ export class ShowPageComponent implements OnInit {
 
   async ngOnInit() {
     this.show = await this.showService.getShow(this._id)
+    console.log(this.show)
     this.show.seasons[0].episodes[0].mainSource = this.show.seasons[0].episodes[0].sources.find((s: any) => s.main);
     // this.playingEpisode = this.show.seasons[0].episodes[0];
   }
@@ -38,11 +41,31 @@ export class ShowPageComponent implements OnInit {
     this.selectSeason = false;
   }
 
-  onChangeEpisode(episodeIndex: number): void {
+  async onChangeEpisode(episodeIndex: number) {
     let episode = this.show.seasons[this.seasonIndex].episodes[episodeIndex];
     episode.mainSource = episode.sources.find((s: any) => s.main);
+    await this.showService.addViewToSource(episode.mainSource._id)
+    let localSource: any = localStorage.getItem(episode.mainSource._id ? episode.mainSource._id : '');
+    if (localSource === null) {
+      localStorage.setItem(episode.mainSource._id ? episode.mainSource._id : '', '{"liked": false}');
+      localSource = localStorage.getItem(episode.mainSource._id ? episode.mainSource._id : '');
+    }
+    this.localSource = JSON.parse(localSource);
+    episode.mainSource.views_count++;
     this.playingEpisode = episode;
   }
+
+  async like() {
+    await this.showService.addLikeToSource(this.playingEpisode.mainSource?._id);
+    if (this.playingEpisode.mainSource?.like_count) {
+      this.playingEpisode.mainSource.like_count++;
+    }
+
+    localStorage.setItem(this.playingEpisode.mainSource?._id ? this.playingEpisode.mainSource?._id : '', JSON.stringify({ liked: true }));
+    let localSource: any = localStorage.getItem(this.playingEpisode.mainSource?._id ? this.playingEpisode.mainSource?._id : '');
+    this.localSource = JSON.parse(localSource);
+  }
+
 
   close() {
     this.dialogRef.close()

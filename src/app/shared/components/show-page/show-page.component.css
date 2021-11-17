@@ -32,6 +32,11 @@ video {
     margin-bottom: auto;
     font-weight: 600;
 }
+.video-datas  .like-count {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 600;
+}
 
 .body {
     width: 100%;
@@ -99,6 +104,7 @@ button {
 .like {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .like p {

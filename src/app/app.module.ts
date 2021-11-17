@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -16,8 +17,17 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ShowPageComponent } from './shared/components/show-page/show-page.component';
 import { EpisodesComponent } from './shared/components/episodes/episodes.component';
+import { SourcePageComponent } from './shared/components/source-page/source-page.component';
 
 @NgModule({
+  imports: [
+    CommonModule,
+    HttpClientModule,
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
+  ],
   declarations: [
     AppComponent,
     HomeComponent,
@@ -27,14 +37,8 @@ import { EpisodesComponent } from './shared/components/episodes/episodes.compone
     LogoComponent,
     FooterComponent,
     ShowPageComponent,
-    EpisodesComponent
-  ],
-  imports: [
-    HttpClientModule,
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatDialogModule,
+    EpisodesComponent,
+    SourcePageComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
