@@ -9,6 +9,7 @@ import { LogoModel, ShowModel, SourceModel } from '../models/show.model';
 })
 export class ShowService {
   BASE_URL = 'https://redetv.herokuapp.com';
+  // BASE_URL = 'http://185.194.219.155';
   // BASE_URL = 'http://localhost:2933';
 
   constructor(private http: HttpClient) { }
@@ -75,7 +76,6 @@ export class ShowService {
           return true;
         }
       });
-      const arr = [];
       sources.splice(8, sources.length - 8);
       return sources;
     } catch (error) {
