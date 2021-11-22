@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { ShowService } from './shared/services/show.service';
 
 @Component({
@@ -6,7 +7,7 @@ import { ShowService } from './shared/services/show.service';
   templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
-  constructor(private showService: ShowService) { }
+  constructor(private showService: ShowService, private route: ActivatedRoute) { }
 
   async ngOnInit() {
     await this.showService.addView();

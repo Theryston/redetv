@@ -1,0 +1,23 @@
+.container--streaming {
+    height: 90vh;
+    display: flex;
+    background: rgb(15, 15, 15);
+    flex-direction: row;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerStreaming--logo {
+    width: calc(120px * 1.2);
+    margin-left: 150px;
+}
+
+.title {
+    width: 100%;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}

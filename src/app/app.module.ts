@@ -18,6 +18,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { ShowPageComponent } from './shared/components/show-page/show-page.component';
 import { EpisodesComponent } from './shared/components/episodes/episodes.component';
 import { SourcePageComponent } from './shared/components/source-page/source-page.component';
+import { DevComponent } from './pages/dev/dev.component';
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import { SourcePageComponent } from './shared/components/source-page/source-page
     FooterComponent,
     ShowPageComponent,
     EpisodesComponent,
-    SourcePageComponent
+    SourcePageComponent,
+    DevComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
