@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
   scrollX = 0;
   widthContainer: number | undefined;
   logo: { url: string, _id: string } | undefined;
+  showStreaming: boolean = true;
 
   constructor(private showService: ShowService, public dialog: MatDialog) { }
 
@@ -45,9 +46,10 @@ export class HomeComponent implements OnInit {
       maxHeight: '99vh',
       data: { _id: show._id },
     });
+    this.showStreaming = false;
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
+      this.showStreaming = true;
     });
   }
 
@@ -56,9 +58,10 @@ export class HomeComponent implements OnInit {
       width: '100vw',
       data: { _id: source._id },
     });
+    this.showStreaming = false;
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
+      this.showStreaming = true;
     });
   }
 

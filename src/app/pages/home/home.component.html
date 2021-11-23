@@ -1,76 +1,73 @@
 <div class="container">
-  <div class="container--streaming">
-    <app-streaming></app-streaming>
-    <img [src]="logo?.url" class="containerStreaming--logo">
-  </div>
-  <section class="container--section">
-    <img src="assets/arrow.png" alt="icon">
-    <p>Rede TV TocantinsFLIX</p>
-  </section>
-  <div class="container--shows">
-    <div class="container--show" *ngFor="let show of mainShows; let index = index">
-      <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
+    <div class="container--streaming">
+        <app-streaming *ngIf="showStreaming"></app-streaming>
+        <img [src]="logo?.url" class="containerStreaming--logo">
     </div>
-  </div>
-  <div *ngIf="shows && scrollX !== 0" class="movieRow--left" (click)="handleLeftArrow()">
-    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-left-fill"
-      viewBox="0 0 16 16">
-      <path
-        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
-    </svg>
-  </div>
-  <div *ngIf="shows && scrollX > ((widthContainer || 0) - shows.length * 220) - 60" class="movieRow--right"
-    (click)="handleRightArrow()">
-    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-right-fill"
-      viewBox="0 0 16 16">
-      <path
-        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-    </svg>
-  </div>
-  <div class="container--showsScroll">
-    <div *ngIf="shows" class="container-scroll" [ngStyle]="{'margin-left': scrollX+'px', 'width': 180*shows.length+'px'}">
-      <div class="container--showScroll" *ngFor="let show of shows; let index = index">
-        <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
-      </div>
+    <section class="container--section">
+        <img src="assets/arrow.png" alt="icon">
+        <p>Rede TV TocantinsFLIX</p>
+    </section>
+    <div class="container--shows">
+        <div class="container--show" *ngFor="let show of mainShows; let index = index">
+            <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
+        </div>
     </div>
-  </div>
-  <section *ngIf="reliShows && reliShows.length > 0" class="container--section">
-    <img src="assets/arrow.png" alt="icon">
-    <p>Programas Religiosos</p>
-  </section>
-  <div *ngIf="reliShows && reliShows.length > 0" class="container--shows">
-    <div class="container--show" *ngFor="let show of reliShows; let index = index">
-      <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
+    <div *ngIf="shows && scrollX !== 0" class="movieRow--left" (click)="handleLeftArrow()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+            <path
+                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+        </svg>
     </div>
-  </div>
-  <section class="container--section bg-black">
-    <img src="assets/arrow.png" alt="icon">
-    <p>Novos episodios</p>
-  </section>
-  <div class="container--sources">
-    <div *ngFor="let source of sources">
-      <div (click)="openDetailsSource(source)" class="container--source">
-        <app-source [source]="source"></app-source>
-      </div>
+    <div *ngIf="shows && scrollX > ((widthContainer || 0) - shows.length * 220) - 60" class="movieRow--right" (click)="handleRightArrow()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+        </svg>
     </div>
-  </div>
-  <section class="container--section">
-    <img src="assets/arrow.png" alt="icon">
-    <p>Eles apoiam nosso trabalho</p>
-  </section>
-  <div class="container--logos">
-    <div *ngFor="let logo of logos">
-      <div class="container--logo">
-        <app-logo [logo]="logo" [isActive]="logo.active"></app-logo>
-      </div>
+    <div class="container--showsScroll">
+        <div *ngIf="shows" class="container-scroll" [ngStyle]="{'margin-left': scrollX+'px', 'width': 180*shows.length+'px'}">
+            <div class="container--showScroll" *ngFor="let show of shows; let index = index">
+                <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="container--logos">
-    <div *ngFor="let logo of logosNoAcitive">
-      <div class="container--logo">
-        <app-logo [logo]="logo" [isActive]="logo.active"></app-logo>
-      </div>
+    <section *ngIf="reliShows && reliShows.length > 0" class="container--section">
+        <img src="assets/arrow.png" alt="icon">
+        <p>Programas Religiosos</p>
+    </section>
+    <div *ngIf="reliShows && reliShows.length > 0" class="container--shows">
+        <div class="container--show" *ngFor="let show of reliShows; let index = index">
+            <app-show [show]="show" (onOpenDetails)="openDetails($event, show)"></app-show>
+        </div>
     </div>
-  </div>
-  <app-footer></app-footer>
+    <section class="container--section bg-black">
+        <img src="assets/arrow.png" alt="icon">
+        <p>Novos episodios</p>
+    </section>
+    <div class="container--sources">
+        <div *ngFor="let source of sources">
+            <div (click)="openDetailsSource(source)" class="container--source">
+                <app-source [source]="source"></app-source>
+            </div>
+        </div>
+    </div>
+    <section class="container--section">
+        <img src="assets/arrow.png" alt="icon">
+        <p>Eles apoiam nosso trabalho</p>
+    </section>
+    <div class="container--logos">
+        <div *ngFor="let logo of logos">
+            <div class="container--logo">
+                <app-logo [logo]="logo" [isActive]="logo.active"></app-logo>
+            </div>
+        </div>
+    </div>
+    <div class="container--logos">
+        <div *ngFor="let logo of logosNoAcitive">
+            <div class="container--logo">
+                <app-logo [logo]="logo" [isActive]="logo.active"></app-logo>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
 </div>
