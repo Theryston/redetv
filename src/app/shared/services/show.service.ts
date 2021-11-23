@@ -8,8 +8,7 @@ import { LogoModel, ShowModel, SourceModel } from '../models/show.model';
   providedIn: 'root'
 })
 export class ShowService {
-  BASE_URL = 'https://redetv.herokuapp.com';
-  // BASE_URL = 'http://185.194.219.155';
+  BASE_URL = 'https://api.redetvto.com.br';
   // BASE_URL = 'http://localhost:2933';
 
   constructor(private http: HttpClient) { }
