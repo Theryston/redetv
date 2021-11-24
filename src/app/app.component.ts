@@ -11,11 +11,15 @@ export class AppComponent implements OnInit {
 
   async ngOnInit() {
     await this.showService.addView();
+    console.log('Set online')
+
     window.addEventListener('blur', async () => {
       await this.showService.setViewOffline();
+      console.log('Set offline')
     })
     window.addEventListener('focus', async () => {
       await this.showService.addView();
+      console.log('Set online')
     })
   }
 }

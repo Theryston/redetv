@@ -142,7 +142,6 @@ export class ShowService {
         localStorage.setItem('ip', await this.geraStringAleatoria(1000))
         ip = localStorage.getItem('ip');
       }
-      console.log(ip)
       return await this.http.post(this.BASE_URL + '/show/view', { user_ip: ip }).toPromise();
     } catch (error) {
       throw error;
