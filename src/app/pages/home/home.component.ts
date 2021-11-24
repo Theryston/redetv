@@ -10,7 +10,7 @@ import { SourcePageComponent } from 'src/app/shared/components/source-page/sourc
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css', './home.mobile.component.css']
 })
 export class HomeComponent implements OnInit {
   shows: ShowModel[];
@@ -24,6 +24,7 @@ export class HomeComponent implements OnInit {
   widthContainer: number | undefined;
   logo: { url: string, _id: string } | undefined;
   showStreaming: boolean = true;
+  loading: boolean = true;
 
   constructor(private showService: ShowService, public dialog: MatDialog) { }
 
@@ -36,6 +37,7 @@ export class HomeComponent implements OnInit {
     this.logos = await this.showService.getLogosActive();
     this.logosNoAcitive = await this.showService.getLogosNoActive();
     this.logo = await this.showService.getRedetvLogo();
+    this.loading = false;
   }
 
   openDetails(event: String, show: ShowModel): void {

@@ -5,7 +5,7 @@ import { ShowService } from 'src/app/shared/services/show.service';
 @Component({
   selector: 'app-dev',
   templateUrl: './dev.component.html',
-  styleUrls: ['./dev.component.css']
+  styleUrls: ['./dev.component.css', './dev.mobile.component.css']
 })
 export class DevComponent implements OnInit {
   logo: { url: string, _id: string } | undefined;
