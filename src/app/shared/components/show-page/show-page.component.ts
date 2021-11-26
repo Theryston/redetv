@@ -18,6 +18,7 @@ export class ShowPageComponent implements OnInit {
   views = 100;
   _id: string;
   localSource = { liked: false };
+  loading = true;
 
 
   constructor(
@@ -32,7 +33,7 @@ export class ShowPageComponent implements OnInit {
     this.show = await this.showService.getShow(this._id)
     console.log(this.show)
     this.show.seasons[0].episodes[0].mainSource = this.show.seasons[0].episodes[0].sources.find((s: any) => s.main);
-    // this.playingEpisode = this.show.seasons[0].episodes[0];
+    this.loading = false;
   }
 
   chosenSeason(index: number): void {
@@ -69,6 +70,13 @@ export class ShowPageComponent implements OnInit {
 
   close() {
     this.dialogRef.close()
+  }
+
+  share() {
+    const element: any = document.querySelector('.shareLink');
+    element.select();
+    navigator.clipboard.writeText(element.value);
+    alert("Link copiado com sucesso!");
   }
 
 }

@@ -1,8 +1,9 @@
 <div class="container" (click)="openDetails()" [ngStyle]="{'background-image': 'url(' + show.posters[0] + ')'}">
+    <div class="last_episode_date" *ngIf="show.last_episode_date">{{show.last_episode_date | date:'MM/dd'}}</div>
 </div>
 <div class="footer">
-  <p class="name">{{show.name.substring(0, 80)}}</p>
-  <p class="first-description">
-    {{show.short_description.length > 43 ? show.short_description.substring(0, 43) + '...' : show.short_description}}
-  </p>
+    <p class="name">{{show.name.substring(0, 80)}}</p>
+    <p class="first-description">
+        {{show.short_description.length > 43 ? show.short_description.substring(0, 43) + '...' : show.short_description}}
+    </p>
 </div>

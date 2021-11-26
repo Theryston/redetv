@@ -5,6 +5,12 @@
     position: relative;
 }
 
+.img-loading {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
 .close {
     cursor: pointer;
     margin-bottom: 20px;
@@ -26,13 +32,14 @@ video {
     justify-content: center;
 }
 
-.video-datas  .views {
+.video-datas .views {
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
     font-weight: 600;
 }
-.video-datas  .like-count {
+
+.video-datas .like-count {
     margin-top: auto;
     margin-bottom: auto;
     font-weight: 600;
@@ -70,7 +77,6 @@ video {
 .details .metadata .description {
     margin-top: 20px;
 }
-
 
 .seasons {
     width: 100%;
@@ -127,14 +133,11 @@ a {
     video {
         height: 150px;
     }
-
     .details {
         flex-wrap: wrap;
     }
-
     .details img {
         width: 100%;
         margin-bottom: 10px;
     }
-    
 }

@@ -11,6 +11,7 @@ export interface ShowModel {
   categories: CategoryModel[];
   seasons: SeasonModel[];
   created_at?: Date | number;
+  last_episode_date?: Date;
 }
 
 export interface CategoryModel {

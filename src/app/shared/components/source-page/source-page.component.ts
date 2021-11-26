@@ -12,6 +12,7 @@ export class SourcePageComponent implements OnInit {
   source: SourceModel;
   _id: string;
   localSource = { liked: false };
+  loading = true;
 
   constructor(
     public dialogRef: MatDialogRef<SourcePageComponent>,
@@ -31,6 +32,7 @@ export class SourcePageComponent implements OnInit {
     }
     this.localSource = JSON.parse(localSource);
     this.source.views_count++;
+    this.loading = false;
   }
 
   async like() {
@@ -43,6 +45,13 @@ export class SourcePageComponent implements OnInit {
 
   close() {
     this.dialogRef.close()
+  }
+
+  share() {
+    const element: any = document.querySelector('.shareLink');
+    element.select();
+    navigator.clipboard.writeText(element.value);
+    alert("Link copiado com sucesso!");
   }
 
 }
