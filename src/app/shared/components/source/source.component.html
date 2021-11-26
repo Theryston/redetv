@@ -1,5 +1,6 @@
 <div class="container">
     <video [autoplay]="false" [muted]="true" [src]="source.url" [poster]="source.poster"></video>
+    <div class="created_at" *ngIf="source.created_at">{{source.created_at | date:'dd'}} de {{source.created_at | date:'MMM'}}</div>
     <div class="footer">
         <p class="name">{{source.show_name}}</p>
     </div>

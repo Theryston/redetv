@@ -45,6 +45,7 @@ export interface SourceModel {
   poster: string;
   main: boolean;
   _id?: string;
+  created_at?: Date;
   show_name?: string;
   views_count: number;
   like_count: number;
