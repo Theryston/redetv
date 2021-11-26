@@ -7,6 +7,9 @@ import { HomeComponent } from './pages/home/home.component';
 const routes: Routes = [{
   path: '',
   component: HomeComponent,
+}, {
+  path: 'video/:video_id',
+  component: HomeComponent,
 }];
 
 @NgModule({

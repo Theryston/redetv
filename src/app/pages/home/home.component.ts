@@ -6,6 +6,7 @@ import { ShowService } from 'src/app/shared/services/show.service';
 import { MatDialog } from '@angular/material/dialog';
 import { ShowPageComponent } from 'src/app/shared/components/show-page/show-page.component';
 import { SourcePageComponent } from 'src/app/shared/components/source-page/source-page.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -26,9 +27,16 @@ export class HomeComponent implements OnInit {
   showStreaming: boolean = true;
   loading: boolean = true;
 
-  constructor(private showService: ShowService, public dialog: MatDialog) { }
+  constructor(private showService: ShowService, public dialog: MatDialog, private route: ActivatedRoute) { }
 
   async ngOnInit() {
+    this.route.params.subscribe(async (params: any) => {
+      if (params.video_id) {
+        this.openDetailsSource(await this.showService.getSource(params.video_id));
+      }
+    })
+    this.logo = await this.showService.getRedetvLogo();
+    this.loading = false;
     this.widthContainer = window.innerWidth;
     this.mainShows = await this.showService.getMainShows()
     this.reliShows = await this.showService.getReliShows()
@@ -36,8 +44,6 @@ export class HomeComponent implements OnInit {
     this.sources = await this.showService.getSources();
     this.logos = await this.showService.getLogosActive();
     this.logosNoAcitive = await this.showService.getLogosNoActive();
-    this.logo = await this.showService.getRedetvLogo();
-    this.loading = false;
   }
 
   openDetails(event: String, show: ShowModel): void {
