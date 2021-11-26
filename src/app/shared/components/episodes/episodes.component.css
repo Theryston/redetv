@@ -3,6 +3,25 @@
     height: 140px;
 }
 
+.episode {
+    position: relative;
+}
+
+.created_at {
+    color: #fff;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
 .footer {
     width: calc(100% - 10px);
     margin-top: 0px;
@@ -41,7 +60,8 @@
     object-fit: cover;
 }
 
-.movieRow--left, .movieRow--right {
+.movieRow--left,
+.movieRow--right {
     position: absolute;
     width: 40px;
     height: 120px;
@@ -55,9 +75,11 @@
     opacity: 1;
     transition: all ease 0.5s;
 }
+
 .movieRow--left {
     left: 0;
 }
+
 .movieRow--right {
     right: 0;
 }

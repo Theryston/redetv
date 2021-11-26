@@ -17,6 +17,15 @@ export class EpisodesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.episodes.sort(function (a: any, b: any) {
+      if (a.created_at > b.created_at) {
+        return -1;
+      }
+      if (a.created_at < b.created_at) {
+        return 1;
+      }
+      return 0;
+    })
     let width = document.querySelector('mat-dialog-container')?.clientWidth;
     this.widthContainer = document.querySelector('mat-dialog-container')?.clientWidth
     if (width) {
