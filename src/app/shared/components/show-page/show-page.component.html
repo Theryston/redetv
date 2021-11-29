@@ -32,7 +32,7 @@
         </div>
         <div class="seasons" *ngIf="selectSeason">
             <button *ngFor="let season of show.seasons; let index = index" (click)="chosenSeason(index)">
-                Temporada {{index + 1}}
+                {{season.name}}
             </button>
         </div>
         <div class="seasons" *ngIf="!selectSeason">
