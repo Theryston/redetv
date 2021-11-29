@@ -15,7 +15,7 @@
         <div class="episodes-list" [ngStyle]="{'width': 230*episodes.length+'px', 'margin-left': scrollX + 'px'}">
             <div class="episode" *ngFor="let episode of episodes; let index = index" (click)="changeEpisode(index)">
                 <img [src]="episode.sources[0].poster" alt="poster" class="episode-image">'
-                <div class="created_at" *ngIf="episode.created_at">{{episode.created_at | date:'dd'}} de {{episode.created_at | date:'MMM'}}</div>
+                <!-- <div class="created_at" *ngIf="episode.created_at">{{episode.created_at | date:'dd'}} de {{episode.created_at | date:'MMM'}}</div> -->
                 <div class="footer">
                     <p class="name">{{episode.name}}</p>
                     <!-- <p class="first-description">{{episode.short_description}}</p> -->
