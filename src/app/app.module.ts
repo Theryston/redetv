@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HttpClientModule } from '@angular/common/http';
-import { CommonModule } from '@angular/common';
+import { CommonModule, registerLocaleData } from '@angular/common';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -19,6 +19,10 @@ import { ShowPageComponent } from './shared/components/show-page/show-page.compo
 import { EpisodesComponent } from './shared/components/episodes/episodes.component';
 import { SourcePageComponent } from './shared/components/source-page/source-page.component';
 import { DevComponent } from './pages/dev/dev.component';
+import { LOCALE_ID } from '@angular/core';
+import localePt from '@angular/common/locales/pt';
+
+registerLocaleData(localePt, 'pt-BR');
 
 @NgModule({
   imports: [
@@ -42,7 +46,10 @@ import { DevComponent } from './pages/dev/dev.component';
     SourcePageComponent,
     DevComponent
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: "pt-BR"
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

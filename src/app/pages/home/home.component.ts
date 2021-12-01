@@ -37,13 +37,13 @@ export class HomeComponent implements OnInit {
     })
     this.logo = await this.showService.getRedetvLogo();
     this.widthContainer = window.innerWidth;
-    this.loading = false;
     this.mainShows = await this.showService.getMainShows()
     this.reliShows = await this.showService.getReliShows()
     this.shows = await this.showService.getAllShows();
     this.sources = await this.showService.getSources();
     this.logos = await this.showService.getLogosActive();
     this.logosNoAcitive = await this.showService.getLogosNoActive();
+    this.loading = false;
   }
 
   openDetails(event: String, show: ShowModel): void {
