@@ -13,7 +13,6 @@ export class ShowComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.show)
   }
 
   openDetails() {

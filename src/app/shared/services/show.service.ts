@@ -34,11 +34,7 @@ export class ShowService {
     try {
       let show: any = await this.http.get<ShowModel[]>(this.BASE_URL + `/show/list`).toPromise();
       show = show.filter((s: any): any => {
-        for (let c of s.categories) {
-          if (!s.main && c.name !== 'Programas religiosos') {
-            return true;
-          }
-        }
+        return s.categories.filter((c: any) => c.name === 'Programas religiosos').length > 0 ? false : true && !s.main;
       });
       return show;
     } catch (error) {
@@ -49,11 +45,7 @@ export class ShowService {
     try {
       let show: any = await this.http.get<ShowModel[]>(this.BASE_URL + `/show/list`).toPromise();
       show = show.filter((s: any): any => {
-        for (let c of s.categories) {
-          if (c.name === 'Programas religiosos') {
-            return true;
-          }
-        }
+        return s.categories.filter((c: any) => c.name === 'Programas religiosos').length > 0 ? true : false && !s.main;
       });
       return show;
     } catch (error) {

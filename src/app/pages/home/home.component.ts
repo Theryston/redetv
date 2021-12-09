@@ -26,6 +26,8 @@ export class HomeComponent implements OnInit {
   logo: { url: string, _id: string } | undefined;
   showStreaming: boolean = true;
   loading: boolean = true;
+  windowWidth = 0;
+  windowRef = window;
 
   constructor(private showService: ShowService, public dialog: MatDialog, private route: ActivatedRoute) { }
 
@@ -93,6 +95,8 @@ export class HomeComponent implements OnInit {
       if ((width - listW) > x) {
         x = (width - listW) - 100;
       }
+
+      this.windowWidth = (window.innerWidth - listW);
 
       this.scrollX = x;
     }
